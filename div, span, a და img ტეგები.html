@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div, span, a და img ტეგები</title>
+    <style>
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 100vh;
+        }
+
+        .container{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            background-color: gray;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .lawngreen{
+            background-color: lawngreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        ეს არის კონტეინერი N1
+        <h1>ეს არის 1-ლი კონტეინერის სათაური</h1>
+        <p>ეს არის 1-ლი კონტეინერის ტექსტი</p>
+    </div>
+    <div class="container lawngreen">
+        ეს არის კონტეინერი N2
+        <h1>ეს არის 2-ე კონტეინერის სათაური</h1>
+        <p>ეს არის 2-ე კონტეინერის ტექსტი</p>
+    </div>
+</body>
+</html>
